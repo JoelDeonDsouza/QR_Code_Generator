@@ -1,11 +1,12 @@
 import React from "react";
 // Components //
-import { Nav } from "../components/Home";
+import { Nav, MainContainer } from "../components/Home";
 
 export default function Home() {
   return (
     <>
       <Nav />
+      <MainContainer />
     </>
   );
 }
